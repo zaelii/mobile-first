@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');@import url(./reset.css);
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+
+:root {
+    --clr-background: #ebecee;
+    --clr-header: #FFFFFF;
+    --clr-orange: #eb9b00;
+    --clr-blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --ft-default: 'Poppins';
+}
+
+body {
+    background-color: var(--clr-background);
+    font-family: var(--ft-default);
+    font-size: 16px;
+    font-weight: 400;
+}
+
