@@ -1,0 +1,9 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--clr-header);
+    padding: 1em;
+    
+}

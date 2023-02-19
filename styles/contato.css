@@ -23,8 +23,18 @@
 
 .contato__email {
     padding: 1em;
-    border: 1px solid var(--clr-blue-gradient);
+    border: 2px solid rgb(0, 0, 36); /* var(--clr-blue-gradient) n funcionando?*/
     border-radius: 24px;
+    padding: 1em;
     width: 90%;
 }
 
+.contato__email::placeholder {
+    font-family: var(--ft-default);
+    color: var(--clr-blue-gradient);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 3em;
+    background: url(../assets/email-icon.svg) no-repeat;
+    background-position: 1em;
+}
