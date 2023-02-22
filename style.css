@@ -17,6 +17,8 @@
     --ft-default: 'Poppins';
     --ft-secondary: 'Josefin Sans';
     --clr-black: #000000;
+    --clr-gray: #474646;
+    --clr-grayclaro: #858585;
 }
 
 body {
