@@ -15,6 +15,16 @@
     position: relative;
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+    background-image: url(../assets/Menu\ Aberto.svg);
+
+}
+
+.container__botao:checked ~ .container__rotulo {
+    background: var(--clr-blue-gradient);
+}
+
+
 .container {
     display: flex;
     align-items: center;
@@ -64,6 +74,15 @@
 
 .opcoes {
     display: none;
+}
+
+.opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+    background: var(--clr-blue-gradient);
+    color: var(--clr-header);
+}
+
+.opcoes__item {
+    padding: 2em 1em;
 }
 
 
