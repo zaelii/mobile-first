@@ -85,6 +85,14 @@
     padding: 2em 1em;
 }
 
+.lista-menu__item:hover {
+    background:var(--clr-blue-gradient);
+}
+
+.lista-menu__item:hover > .lista-menu__link {
+    -webkit-text-fill-color: var(--clr-header);
+    text-decoration: none;
+}
 
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito {
@@ -104,7 +112,6 @@
     }
 
     .opcoes__item {
-        padding: 0 1em;
         text-transform: uppercase;
     }
 
